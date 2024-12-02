@@ -1,0 +1,17 @@
+2024-12-02T10:23:22.034+05:30  INFO 29224 --- [VerveTrackerApi] [main] c.e.v.VerveTrackerApiApplication         : Starting VerveTrackerApiApplication using Java 21.0.2 with PID 29224 (D:\Study\SpringbootProjects\VerveTrackerApi\target\classes started by soura in D:\Study\SpringbootProjects\VerveTrackerApi)
+2024-12-02T10:23:22.036+05:30  INFO 29224 --- [VerveTrackerApi] [main] c.e.v.VerveTrackerApiApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-02T10:23:23.019+05:30  INFO 29224 --- [VerveTrackerApi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-02T10:23:23.036+05:30  INFO 29224 --- [VerveTrackerApi] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-02T10:23:23.057+05:30  INFO 29224 --- [VerveTrackerApi] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-02T10:23:23.121+05:30  INFO 29224 --- [VerveTrackerApi] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-02T10:23:23.122+05:30  INFO 29224 --- [VerveTrackerApi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1034 ms
+2024-12-02T10:23:23.847+05:30  INFO 29224 --- [VerveTrackerApi] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-02T10:23:23.857+05:30  INFO 29224 --- [VerveTrackerApi] [main] c.e.v.VerveTrackerApiApplication         : Started VerveTrackerApiApplication in 2.359 seconds (process running for 3.006)
+2024-12-02T10:26:52.828+05:30  INFO 29224 --- [VerveTrackerApi] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-02T10:26:52.829+05:30  INFO 29224 --- [VerveTrackerApi] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-02T10:26:52.832+05:30  INFO 29224 --- [VerveTrackerApi] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-02T10:26:55.287+05:30  INFO 29224 --- [VerveTrackerApi] [reactor-http-nio-2] c.e.v.controller.VerveController         : Fired POST request to https://webhook.site/ec017cab-bba1-4f2f-8b5c-b5322927305d, Status Code: 200 OK
+2024-12-02T10:27:30.444+05:30  WARN 29224 --- [VerveTrackerApi] [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'id': Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "12345d"]
+2024-12-02T10:27:53.632+05:30  INFO 29224 --- [VerveTrackerApi] [reactor-http-nio-3] c.e.v.controller.VerveController         : Fired POST request to https://webhook.site/ec017cab-bba1-4f2f-8b5c-b5322927305d, Status Code: 200 OK
+2024-12-02T10:39:48.287+05:30  INFO 29224 --- [VerveTrackerApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-02T10:39:48.298+05:30  INFO 29224 --- [VerveTrackerApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
